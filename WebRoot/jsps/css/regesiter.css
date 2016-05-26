@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+
+/*主div设置*/
+#main{
+	position: relative;
+	margin-top : 30px;
+	width : 300px;
+	height: 400px;
+	left  : 100px;
+}
+/*输入框*/
+.input{
+	height : 25px;
+	width  : 170px;
+	font-size: 16px;
+	color : #696969;
+	border-color: #ABABAB;
+	border-width: 1px;
+	border-style: solid;
+	padding : 3px;
+}
+#verifyImage{
+	height : 25px;
+	width  : 80px;
+	font-size: 16px;
+	color : #696969;
+	border-color: #ABABAB;
+	border-width: 0.12pc;
+	border-style: solid;
+	padding : 3px;
+}
+/*验证码*/
+#imageCode{
+	display: block;
+	position: absolute;
+	top : 256px;
+	left: 192px;
+}
+/*注册按钮*/
+#regesiter{
+	display : block;
+	position: relative;
+	width   : 120px;
+	height  : 30px;
+	background-color : #483D8B;
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	color : #ff8854;
+	left  : 100px;
+}
+#regesiter:HOVER {
+	background-color : #9370DB;
+	color : #FFFFFF;
+}
+/*跳转到登录的按钮*/
+#login{
+	position: relative;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	color : #483D8B;
+	left : 230px;
+	bottom: 25px;
+	font-size: 13px;
+}
+#login:HOVER {
+	color :#483D8B;
+	text-decoration: none;
+}

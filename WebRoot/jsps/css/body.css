@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+
+body{
+	background-color : #5E8F36;
+}
+
+#main{
+	position: static;
+	width   : 1120px;
+	height  : 1400px;
+	margin  : 0px auto 0px;
+	background-color : #fff;
+}
+.computer{
+	width       : 200px;
+	height      : 300px;
+	float       : left;
+	background-color : #696969;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border : solid #fff 1px;
+}
+.image_div{
+	margin :0px;
+	padding : 0px;
+	width : 200px;
+	height: 180px;
+}
+.image{
+	width : 200px;
+	height: 180px;
+}
+.computer_info{
+	
+	width : 200px;
+	height: 120px;
+	background-color : #fff;
+}
+
+.computer_info table tr td{
+	font-size: 15px;
+	font-family: 楷体;
+	color : #696969;
+}
+
+.computer_info table tr td a{
+
+	color : #551A8B;
+}
+
+/*分页栏*/
+#page{
+	position:absolute;
+	width : 1120px;
+	height : 40px;
+	margin-top : 1340px;
+	text-align : center;
+}
+#page table{
+	margin : auto;
+	height  : 40px;
+}
+.page_main{
+	display: block;
+	width: 30px;
+	height:30px;
+	background-color : #ccc;
+	line-height: 30px;
+	text-align: center;
+	font-family: 楷体;
+	text-decoration: none;
+}
+
+#before_page{
+	display: block;
+	width : 80px;
+	height : 30px;
+	background-color: #483D8B;
+	margin : 10px;
+	line-height: 30px;
+	text-align: center;
+	font-family: 楷体;
+	color : #FF7C6F;
+	text-decoration: none;
+}
+
+#last_page{
+	display: block;
+	width : 80px;
+	height : 30px;
+	background-color: #483D8B;
+	margin : 10px;
+	line-height: 30px;
+	text-align: center;
+	font-family: 楷体;
+	color : #FF7C6F;
+	text-decoration: none;
+}
+
+#before_page:HOVER {
+	background-color : #9370DB;
+	color : #fff;
+}
+#last_page:HOVER {
+	background-color : #9370DB;
+	color : #fff;
+}
+.page_main:HOVER {
+	background-color : #ddd;
+}

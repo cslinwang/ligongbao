@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>ComputerServlet</servlet-name>
+    <servlet-class>com.bao.computer.servlet.ComputerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>imageCode</servlet-name>
+    <servlet-class>com.bao.utils.imageCode</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.bao.user.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveSession</servlet-name>
+    <servlet-class>com.bao.user.servlet.RemoveSession</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.bao.order.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.bao.user.servlet.LoginServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>ShopCartServlet</servlet-name>
+    <servlet-class>com.bao.shopcart.servlet.ShopCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddToShopCart</servlet-name>
+    <servlet-class>com.bao.shopcart.servlet.AddToShopCart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveShop</servlet-name>
+    <servlet-class>com.bao.shopcart.servlet.RemoveShop</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ComputerInfo</servlet-name>
+    <servlet-class>com.bao.computer.servlet.ComputerInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ConfirmOrder</servlet-name>
+    <servlet-class>com.bao.order.servlet.ConfirmOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ComfirmOrders</servlet-name>
+    <servlet-class>com.bao.order.servlet.ComfirmOrders</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShopCartForOrder</servlet-name>
+    <servlet-class>com.bao.shopcart.servlet.ShopCartForOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddressServlet</servlet-name>
+    <servlet-class>com.bao.order.servlet.AddressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddressServlets</servlet-name>
+    <servlet-class>com.bao.order.servlet.AddressServlets</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeAddress</servlet-name>
+    <servlet-class>com.bao.order.servlet.ChangeAddress</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DropAddress</servlet-name>
+    <servlet-class>com.bao.order.servlet.DropAddress</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateAddress</servlet-name>
+    <servlet-class>com.bao.order.servlet.UpdateAddress</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>com.bao.order.servlet.Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>com.bao.order.servlet.AddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddOrder</servlet-name>
+    <servlet-class>com.bao.order.servlet.AddOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchComputer</servlet-name>
+    <servlet-class>com.bao.computer.servlet.SearchComputer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdatePassword</servlet-name>
+    <servlet-class>com.bao.user.servlet.UpdatePassword</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <servlet-class>com.bao.user.service.ChangePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeCountServlet</servlet-name>
+    <servlet-class>com.bao.shopcart.servlet.ChangeCountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignServlet</servlet-name>
+    <servlet-class>com.bao.sign.servlet.SignServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ShopCartServlet</servlet-name>
+    <url-pattern>/ShopCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComputerServlet</servlet-name>
+    <url-pattern>/ComputerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>imageCode</servlet-name>
+    <url-pattern>/imageCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveSession</servlet-name>
+    <url-pattern>/RemoveSession</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddToShopCart</servlet-name>
+    <url-pattern>/AddToShopCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveShop</servlet-name>
+    <url-pattern>/RemoveShop</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComputerInfo</servlet-name>
+    <url-pattern>/ComputerInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfirmOrder</servlet-name>
+    <url-pattern>/ConfirmOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComfirmOrders</servlet-name>
+    <url-pattern>/ComfirmOrders</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopCartForOrder</servlet-name>
+    <url-pattern>/ShopCartForOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddressServlet</servlet-name>
+    <url-pattern>/AddressServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddressServlets</servlet-name>
+    <url-pattern>/AddressServlets</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeAddress</servlet-name>
+    <url-pattern>/ChangeAddress</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DropAddress</servlet-name>
+    <url-pattern>/DropAddress</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAddress</servlet-name>
+    <url-pattern>/UpdateAddress</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/AddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddOrder</servlet-name>
+    <url-pattern>/AddOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchComputer</servlet-name>
+    <url-pattern>/SearchComputer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePassword</servlet-name>
+    <url-pattern>/UpdatePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <url-pattern>/ChangePasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeCountServlet</servlet-name>
+    <url-pattern>/ChangeCountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignServlet</servlet-name>
+    <url-pattern>/SignServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

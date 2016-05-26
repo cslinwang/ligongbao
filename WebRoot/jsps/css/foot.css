@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+.copyright{
+	background-color: #F0F0F0;
+	border-top: 5px solid #d8d8d8;
+}
+.copyrightword {
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 980px;
+    color: #666;
+    font-size: 16px;
+    font-family: 楷体;
+}
+.copyright a, .topright a, .new a, .topright a, .question a {
+    color: #666;
+}
+.copyright a:hover, .host a:hover, .topright a:hover, .question a:hover {
+    color: #ff8854;
+}

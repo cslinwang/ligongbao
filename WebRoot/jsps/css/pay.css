@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+#adress{
+	margin-left : 100px;
+	margin-top : 20px;
+}
+#adress a{
+	text-decoration: none;
+	font-family: 楷体;
+	color : 0f0;
+}
+#order_head{
+	margin-left : 100px;
+	margin-top : 20px;
+}
+
+#order_head{
+	width : 900px;
+	height: 30px;
+	font-family : 楷体;
+	padding-left : 12px;
+	background: url("../../images/bg_btns.png") repeat-x 0px -132px;
+}
+
+#order_head table tr td{
+	color : #000000;
+}
+
+.shopcart_body{
+	width : 912px;
+	height: 100px;
+	margin-left:100px;
+	margin-top : 5px;
+	margin-bottom:5px;
+	border-color : #ffffff;
+	border-width : 1px;
+	font-family  : 楷体;
+	border-style : solid;
+ 
+}
+
+.shopcart_body table tr td{
+	color : #ffffff;
+}
+
+.shopcart_body table tr td a{
+	text-decoration: none;
+	color : #ffffff;
+}
+.shopcart_body table tr td a:HOVER{
+	text-decoration: underline;
+	color          : #EF0000;
+}
+#submit a{
+	color : #FFF;
+	font-family: 楷体;
+	text-decoration: none;
+	font-size: 21px;
+	text-align: center;
+	line-height: 30px;
+	background-color:#ff5500;
+}
+#submit a:HOVER{
+	background-color : #FF3300;
+}

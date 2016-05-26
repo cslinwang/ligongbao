@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+
+#shopcart_head{
+	width : 900px;
+	height: 30px;
+	margin : 10px auto 10px;
+	font-family : 楷体;
+	padding-left : 12px;
+	background: url("../../images/bg_btns.png") repeat-x 0px -132px;
+}
+
+#shopcart_head table tr td{
+	color : #000000;
+}
+
+.shopcart_body{
+	width : 912px;
+	height: 100px;
+	margin: 0px auto 10px;
+	border-color : #ffffff;
+	border-width : 1px;
+	font-family  : 楷体;
+	border-style : solid;
+	margin-top: 10px;
+	margin-bottom: 10px;  
+}
+
+.shopcart_body table tr td{
+	color : #000000;
+}
+
+.shopcart_body table tr td a{
+	text-decoration: none;
+	color : #ffffff;
+}
+.shopcart_body table tr td a:HOVER{
+	text-decoration: underline;
+	color          : #EF0000;
+}
+
+#shopcart_buttom{
+	width : 900px;
+	height: 30px;
+	margin : 10px auto 10px;
+	font-family : 楷体;
+	padding-left : 12px;
+	background: url("../../images/bg_btns.png") repeat-x 0px -132px;
+}
+
+#shopcart_buttom table tr td{
+	color : #696969;
+}
+
+#pay{
+	display: block;
+	width  : 80px;
+	height : 25px;
+	line-height: 30px;
+	text-align: center;
+	background-color : #483D8B;
+	color : #FF885D;
+	text-decoration: none;
+}
+
+#pay:HOVER {
+	background-color: #9370DB;
+	color     : #ffffff;
+}
+
+#content {
+min-height:72%;
+position: relative;
+}

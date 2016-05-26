@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+#login_main{
+	width : 900px;
+	height: 330px;
+	margin : 20px auto 30px;
+}
+
+#login_left{
+	float : left;
+	width : 541px;
+	height: 100%;
+}
+
+#login_right{
+	float : left;
+	width : 347px;
+	height: 100%;
+}
+
+#body{
+	height : 173px;
+	width  : 100%;
+	background-image: url("../../images/login/page3.jpg"); 
+}
+
+#botton{
+	width : 100%;
+	height: 80px;
+	background-image:url(../../images/login/page4.jpg);
+	
+}
+
+#login_buttom{
+	display: block;
+	width  : 176px;
+	height : 30px;
+	background-color: #ef0000;
+	margin-left: 90px;
+	color : #ffffff;
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#login{
+	position: relative;
+	line-height: 30px;
+	font-weight: bold;
+	color : #483D8B;
+	left  : 190px;
+	bottom: 25px;
+	font-size: 13px;
+}
+#login_buttom:hover{
+	color : #FFF;
+	background-color:#9370DB;
+}
+#botton_text{
+	
+}

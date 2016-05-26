@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="LiGongBao"
+  id="myeclipse.1435806243418"
+  context-root="/LiGongBao"
+  j2ee-spec="5.0"
+  archive="LiGongBao.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

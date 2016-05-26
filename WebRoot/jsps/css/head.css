@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+/*初始化内外边距设置为0*/
+*{
+	margin  : 0px;
+	padding : 0px;
+}
+
+/*网站导航上面区域用来显示logo和登录信息*/
+#head_top{
+	position: relative;
+	width   : 100%;
+	height  : 60px;
+	margin-bottom: 5px;
+	background-color : #5E8F36;
+}
+
+/*网站的导航菜单*/
+#head_nav{
+	position: relative;
+	width   : 100%;
+	height  : 60px;
+	background-color : #5E8F36;
+}
+
+/*网站导航栏的列表*/
+#nav_ul{
+	display  : block;
+	position : relative;
+	width    : 600px;
+	height   : 60px;
+	left     : 200px;
+	/*background-color : #8888ff;  */
+}
+#nav_ul li{
+	display     : inline-block;
+	float       : left;
+	line-height : 60px;
+	font-size   : 18px;
+	font-weight : bold;
+}
+#nav_ul li a{
+	display         : block;
+	width           : 120px;
+	height          : 60px;
+	text-align      : center;
+	text-decoration : none;
+	color           : #ff8854;
+}
+#nav_ul li a:HOVER{
+	background-color : #9370DB;
+	color            : #ffffff;
+}
+
+/*网站logo,文章搜索和用户登录接口*/
+#head_top_logo{
+	float : left;
+	width : 33.33%;
+	height: 100%;
+}
+
+#head_top_logo image{
+	height : 60px;
+	width  : 283px;
+}
+
+#head_top_search{
+	float : left;
+	width : 33.33%;
+	height: 100%;
+}
+
+#head_top_search ul{
+	display  : block;
+	position : relative;
+}
+#head_top_search ul li{
+	display     : inline-block;
+	float       : left;
+}
+
+#head_top_search ul li a{
+	display: block;
+	width  : 140px;
+	height : 40px;
+	background-color :#EF0000;
+	color : #FFF;
+	font-weight : bold;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 0px;
+	line-height : 40px;
+	font-size: 24px;
+}
+
+#SearchComputer{
+	width : 280px;
+	height: 40px;
+	margin-top : 10px;
+	border-width : px;
+	border-color: #FF0000;
+	font-size:   18px;
+	color    :   #696969;
+}
+
+/*用户登录与注册*/
+#head_top_user{
+	float : left;
+	width : 33.33%;
+	height: 100%;
+	line-height : 50px;
+	font-size: 14px;
+	color : #ffffff;
+	text-align: center;
+}
+#head_top_user a{
+	font-size: 13px;
+    text-decoration: none;
+    line-height: 50px;
+}
+#head_top_user a:hover{
+	text-decoration: underline;
+	color : #ff0000;
+}
