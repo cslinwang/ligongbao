@@ -12,45 +12,43 @@ import javax.servlet.http.HttpServletResponse;
 import com.bao.computer.domain.Computer;
 import com.bao.computer.service.ComputerService;
 
-
-
-
 /**
- * ÏÔÊ¾ËùÓÐµçÄÔÐÅÏ¢Àà
- * @author ËÎ¹úÈ«
+ * ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½
+ * 
+ * @author ï¿½Î¹ï¿½È«
  *
  */
-public class ComputerServlet extends HttpServlet{
+public class ComputerServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		
-		ComputerService computerservice =new ComputerService();
-		
-         List<Computer> computerList = new ArrayList<Computer>();
-      
-         int page=0;
-         
-         if(request.getParameter("page") == null){
-        	 page = 0;
-         }else{
-        	 page = Integer.parseInt(request.getParameter("page"));
-         }
-         
-         computerList = computerservice.findAll(page);
-         
-         request.setAttribute("computerlist", computerList);
-         request.setAttribute("page", (int) Math.floor(computerservice.findCount()/20));
-         request.setAttribute("pa", page);
-         
-         
-         request.getRequestDispatcher("/jsps/body.jsp").forward(request, response);
+
+		ComputerService computerservice = new ComputerService();
+
+		List<Computer> computerList = new ArrayList<Computer>();
+
+		int page = 0;
+
+		if (request.getParameter("page") == null) {
+			page = 0;
+		} else {
+			page = Integer.parseInt(request.getParameter("page"));
+		}
+
+		computerList = computerservice.findAll(page);
+
+		request.setAttribute("computerlist", computerList);
+		request.setAttribute("page",
+				(int) Math.floor(computerservice.findCount() / 20));
+		request.setAttribute("pa", page);
+
+		request.getRequestDispatcher("/jsps/body.jsp").forward(request,
+				response);
 	}
 
-
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
-	throws ServletException, IOException {
+			throws ServletException, IOException {
 
-         doPost(request,response);
-    }
+		doPost(request, response);
+	}
 }

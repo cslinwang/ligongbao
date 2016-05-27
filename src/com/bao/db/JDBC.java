@@ -8,8 +8,8 @@ public class JDBC {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/notecomputer", "root", "mysql");
-			System.out.println("³É¹¦Á¬½Ó...");
+					"jdbc:mysql://localhost:3306/ligongbao", "root", "mysql");
+			System.out.println("ï¿½É¹ï¿½ï¿½ï¿½ï¿½ï¿½...");
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
